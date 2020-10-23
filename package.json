@@ -11,23 +11,14 @@
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
-    "lint": "npm run prettier -- --check && npm run swiftlint -- lint",
-    "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
-    "swiftlint": "node-swiftlint",
-    "build": "npm run clean && tsc && rollup -c rollup.config.js",
-    "clean": "rimraf ./dist"
+    "build": "rimraf ./dist && tsc && rollup -c rollup.config.js"
   },
   "devDependencies": {
     "@capacitor/android": "2.4.2",
     "@capacitor/core": "2.4.2",
-    "@ionic/prettier-config": "1.0.1",
-    "@ionic/swiftlint-config": "1.1.2",
     "@rollup/plugin-node-resolve": "9.0.0",
-    "prettier": "2.1.2",
-    "prettier-plugin-java": "0.8.3",
     "rimraf": "3.0.2",
     "rollup": "2.32.1",
-    "swiftlint": "1.0.1",
     "typescript": "4.0.3"
   },
   "peerDependencies": {
@@ -46,7 +37,5 @@
     "android": {
       "src": "android"
     }
-  },
-  "prettier": "@ionic/prettier-config",
-  "swiftlint": "@ionic/swiftlint-config"
+  }
 }
