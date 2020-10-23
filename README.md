@@ -1,6 +1,6 @@
 # Capacitor WebCiewCache Plugin
 
-The native Android `WebView` caches images. If images are replaced on the server but keep the same filename, the `WebView` still shows the cached image. This plugin makes it possible to clear the `WebView` cache if needed.
+The native Android `WebView` caches images. If images are replaced on the server but keep the same filename, the `WebView` still shows the cached images. This plugin makes it possible to clear the `WebView` cache if needed.
 
 ## What does it do?
 
