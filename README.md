@@ -9,7 +9,7 @@ The plugin calls the native `WebView.clearCache(true)` method that clears the ca
 ## Install
 
 ```
-npm install capacitor-border-radius
+npm install capacitor-plugin-webview-cache
 npx cap sync
 ```
 
