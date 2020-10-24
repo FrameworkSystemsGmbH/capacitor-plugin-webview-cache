@@ -14,8 +14,6 @@ xcuserdata
 # macOS files
 .DS_Store
 
-
-
 # Based on Android gitignore template: https://github.com/github/gitignore/blob/master/Android.gitignore
 
 # Built application files
@@ -62,3 +60,5 @@ captures/
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
+
+package-lock.json
