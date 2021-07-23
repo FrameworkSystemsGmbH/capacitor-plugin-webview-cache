@@ -1,5 +1,3 @@
-
-  <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.fs.htmlclient.plugins.webviewcache.capacitorpluginwebviewcache">
-  </manifest>
-  
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fs.htmlclient.plugins.webviewcache">
+</manifest>

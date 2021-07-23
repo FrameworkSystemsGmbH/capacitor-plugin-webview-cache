@@ -4,13 +4,13 @@ import android.app.Activity;
 import android.webkit.WebView;
 
 import com.getcapacitor.Bridge;
-import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
+import com.getcapacitor.annotation.CapacitorPlugin;
 
-@NativePlugin
-public class WebViewCache extends Plugin {
+@CapacitorPlugin(name = "WebViewCache")
+public class WebViewCachePlugin extends Plugin {
 
     @PluginMethod
     public void clearCache(PluginCall call) {
@@ -35,9 +35,9 @@ public class WebViewCache extends Plugin {
 
             activity.runOnUiThread(new ClearCache(webView));
 
-            call.success();
+            call.resolve();
         } catch (Exception ex) {
-            call.error(ex.getMessage(), ex);
+            call.reject(ex.getMessage(), ex);
         }
     }
 }
