@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-webview-cache",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Clears Android WebView cache",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -27,19 +27,19 @@
   ],
   "scripts": {
     "verify": "npm run verify:android && npm run verify:web",
-    "verify:android": "cd android && ./gradlew clean build test && cd ..",
+    "verify:android": "cd android && gradlew clean build test && cd ..",
     "verify:web": "npm run build",
     "build": "rimraf ./dist && tsc && rollup -c rollup.config.js"
   },
   "devDependencies": {
-    "@capacitor/android": "3.1.2",
-    "@capacitor/core": "3.1.2",
+    "@capacitor/android": "4.0.1",
+    "@capacitor/core": "4.0.1",
     "rimraf": "3.0.2",
-    "rollup": "2.53.3",
-    "typescript": "4.3.5"
+    "rollup": "2.78.0",
+    "typescript": "4.7.4"
   },
   "peerDependencies": {
-    "@capacitor/core": "^3.0.0"
+    "@capacitor/core": "^4.0.0"
   },
   "capacitor": {
     "android": {
