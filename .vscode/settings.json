@@ -1,5 +1,9 @@
 {
-  "editor.smoothScrolling": true,
+  "css.format.enable": true,
+  "css.format.newlineBetweenRules": true,
+  "css.format.newlineBetweenSelectors": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+
   "editor.tabSize": 2,
   "editor.wordWrap": "off",
   "editor.wrappingIndent": "indent",
@@ -7,22 +11,16 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
-  "html.format.endWithNewline": true,
   "html.format.maxPreserveNewLines": 1,
   "html.format.wrapLineLength": 0,
 
   "javascript.preferences.importModuleSpecifier": "non-relative",
   "javascript.preferences.quoteStyle": "single",
 
-  "scssFormatter.printWidth": 1000,
-  "scssFormatter.singleQuote": true,
-
   "search.exclude": {
     "**/dist": true,
     "**/node_modules": true
   },
-
-  "telemetry.enableCrashReporter": false,
 
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.preferences.quoteStyle": "single",
