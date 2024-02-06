@@ -28,9 +28,8 @@
   ],
   "scripts": {
     "build": "rimraf ./dist && tsc && rollup -c rollup.config.js",
-    "verify": "npm run verify:android && npm run verify:web",
+    "verify": "npm run build && npm run verify:android",
     "verify:android": "cd android && gradlew clean build test && cd ..",
-    "verify:web": "npm run build",
     "updateSim": "ncu",
     "updateRun": "ncu -u"
   },
