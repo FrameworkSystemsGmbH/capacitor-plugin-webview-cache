@@ -34,15 +34,15 @@
     "updateRun": "ncu -u"
   },
   "devDependencies": {
-    "@capacitor/android": "next",
-    "@capacitor/core": "next",
-    "npm-check-updates": "16.14.14",
-    "rimraf": "5.0.5",
-    "rollup": "4.9.6",
-    "typescript": "5.3.3"
+    "@capacitor/android": "6.1.2",
+    "@capacitor/core": "6.1.2",
+    "npm-check-updates": "17.1.0",
+    "rimraf": "6.0.1",
+    "rollup": "4.21.1",
+    "typescript": "5.5.4"
   },
   "peerDependencies": {
-    "@capacitor/core": "next"
+    "@capacitor/core": "^6.0.0"
   },
   "capacitor": {
     "android": {
